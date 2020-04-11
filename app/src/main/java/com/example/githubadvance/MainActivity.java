@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Toast.makeText(this, "Local_branch: master, remote_branch: master, first commit", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Local_branch: master, remote_branch: master, second commit", Toast.LENGTH_SHORT).show();
 
     }
 }
